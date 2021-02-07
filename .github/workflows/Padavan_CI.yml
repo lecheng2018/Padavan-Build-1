@@ -68,7 +68,7 @@ jobs:
       matrix:
         include:
           - build_variant: "mt7621"
-            targets: "RM2100 R2100"
+            targets: "RM2100"
     steps:
       - name: Checkout main            # 导入主分支
         uses: actions/checkout@main
